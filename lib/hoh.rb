@@ -43,15 +43,19 @@ def naming_system
   # HoH all the way to Species!
   bio_life = {
     :kingdom =>{
-      :phylum=>{},
-      :class=>{
-        :Order=>{},
-        :Family=>{
-          :Genus=>{
-            
+      :phylum=>{
+        :class=>{
+          :order=>{
+            :Family=>{
+              :Genus=>{
+                :Species=>{}
+              }
+            }
           }
         }
       }
+      
+
     } 
     
   }
