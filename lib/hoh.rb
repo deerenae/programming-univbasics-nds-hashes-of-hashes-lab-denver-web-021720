@@ -44,7 +44,9 @@ def naming_system
   bio_life = {
     :kingdom =>{
       :phylum=>{},
-      :class=>{}
+      :class=>{
+        :order=>{}
+      }
     } 
     
   }
